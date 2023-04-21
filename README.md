@@ -24,4 +24,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [Janu Lingeswaran](http://www.lingeswaran.de)
+- [Janu Lingeswaran](http://www.lingeswaran.com)
