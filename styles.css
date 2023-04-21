@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
-  height: calc(100vh - 80px); /* Abzug von Höhe des Headers und des Footers */
+  height: calc(100vh - 80px);
 }
 
 h1 {
@@ -127,9 +127,3 @@ footer a:hover {
   height: 100%;
   border: 1px solid #999;
 }
-
-/* Footer-Styling */
-
-/* Hauptcontainer-Styling */
-
-/* Graph-Styling */
