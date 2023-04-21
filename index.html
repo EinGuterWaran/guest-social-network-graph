@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guest Social Network Graph</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="graph.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+  <div class="main-container">
+    <h1>Guest Social Network Graph</h1>
+    <p class="intro">
+      This application creates a social network graph based on your guest list.
+      Enter the names of the guests and answer the questions to create connections
+      between the guests. The resulting graph displays the relationships
+      within your guest list.
+    </p>
+    <form id="guestForm">
+      <label for="guestList">Guest List (comma separated):</label>
+      <input type="text" id="guestList" name="guestList" placeholder="Name1, Name2, Name3">
+      <button type="submit">Create</button>
+    </form>
+    <div id="graph"></div>
+  </div>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Connections</h2>
+      <p id="modalText"></p>
+      <div class="modal-buttons">
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Created by <a href="http://www.lingeswaran.com" target="_blank" rel="noopener noreferrer">Janu Lingeswaran</a></p>
+  </footer>
+</body>
+</html>
+
+
+
