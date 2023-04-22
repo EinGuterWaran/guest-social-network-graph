@@ -10,7 +10,7 @@ To use this application, follow these steps:
 2. Enter the names of your guests separated by commas in the "Guest List" input field.
 3. Click the "Create" button to generate the social network graph.
 4. For each pair of guests, a modal will appear asking if they know each other. Click "Yes" or "No" to create or remove a connection between them, respectively.
-5. The resulting graph will show the connections between your guests. Hover over a node to see the guest's name.
+5. The resulting graph will show the connections between your guests.
 
 ## Technologies Used
 - HTML
