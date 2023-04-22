@@ -18,6 +18,9 @@ To use this application, follow these steps:
 - JavaScript
 - D3.js
 
+## Screenshot
+![Guest Social Network Graph Screenshot](screenshot.png)
+
 ## License
 
 This project is licensed under the MIT License.
