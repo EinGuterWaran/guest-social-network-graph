@@ -1,4 +1,4 @@
-# Social Network Graph
+# Guest Social Network Graph
 
 This web application creates a social network graph based on your guest list. Simply enter the names of your guests and answer the questions to create connections between them. The resulting graph shows the relationships within your guest list.
 
